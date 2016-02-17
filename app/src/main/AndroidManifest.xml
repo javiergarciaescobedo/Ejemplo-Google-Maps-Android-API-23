@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="es.javiergarciaescobedo.ejemplogooglemapsandroidapi23">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="es.javiergarciaescobedo.ejemplogooglemapsandroidapi23.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Indica aquí la clave generada en la Consola de Desarrollador de Google -->
+        <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyDMxBCct6yihwBCj0PLZ0TtV_A7HS9djA8" />
+    </application>
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+
+</manifest>
